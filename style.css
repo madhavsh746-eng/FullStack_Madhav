@@ -1,0 +1,146 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* makes it circular */
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+}
+
+
+/* Header */
+header {
+    background-color: #4adc37;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 2rem 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+/* Contact icons */
+.contact-info {
+    text-align: center; /* centers the icons */
+    margin-top: 10px;
+}
+
+.contact-info a {
+    font-size: 30px;  /* icon size */
+    margin: 0 15px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #0077b5; /* LinkedIn/email hover color */
+}
+
+/* Timetable Page */
+.time-table, .subject-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.time-table th, .time-table td,
+.subject-table th, .subject-table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.time-table th {
+    background: #333;
+    color: #fff;
+}
+
+.subject-table th {
+    background: #444;
+    color: #fff;
+}
+
+.time-table tr:nth-child(even),
+.subject-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+.aman{
+color: #5c1616;
+}
